@@ -4,7 +4,9 @@ import "fmt"
 
 // main function mandatory
 func main() {
-	fmt.Println("Hello World")
+
+	helloWorld := "Hello World"
+	fmt.Println(helloWorld)
 }
 
 /*
