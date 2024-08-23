@@ -6,6 +6,13 @@ import (
 
 var hi string = "hi" // global variable
 
+// untyped constant
+const age = 12
+
+// typed constant
+// only declaration and later assign value to it not possible
+const name string = "Harry"
+
 func main() {
 	// these variables are only accessible within this block surrounded by {}
 	// it is still possible to access variables from outer blockes
