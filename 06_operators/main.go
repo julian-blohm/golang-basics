@@ -63,4 +63,38 @@ func main() {
 	// just for showcasing; sonar doesnt like it
 	fmt.Println(!(true))
 
+	/*
+	* Assignment operators
+	* assign: =
+	* add and assign: +=
+	* subtract and assign: -=
+	* multiply and assign: *=
+	* divide and assign quotient: /=
+	* divide and assign modulus: %=
+	 */
+	number1 = 5
+	number2 = 10
+	number1 = number2
+	fmt.Println(number1)
+
+	number1 = 5
+	number1 += number2 // same as num1 = num1 + num2
+	fmt.Println(number1)
+
+	number1 = 5
+	number1 -= number2 // same as num1 = num1 - num2
+	fmt.Println(number1)
+
+	number1 = 5
+	number1 *= number2 // same as num1 = num1 * num2
+	fmt.Println(number1)
+
+	number1 = 5
+	number1 /= number2 // same as num1 = num1 / num2
+	fmt.Println(number1)
+
+	number1 = 5
+	number1 %= number2 // same as num1 = num1 % num2 (remainder of division is asigned)
+	fmt.Println(number1)
+
 }
