@@ -42,7 +42,25 @@ func main() {
 
 	number1++
 	fmt.Println(number1)
-	number2--
+	number1--
 	fmt.Println(number1)
+
+	/*
+	* Logical operator
+	* logical and: &&
+	* logical or: ||
+	* logical not: ! ; unary operator
+	 */
+
+	number1 = 10
+	fmt.Println((number1 < 100) && (number1 < 200))
+	fmt.Println((number1 < 300) && (number1 < 0))
+	fmt.Println("")
+
+	fmt.Println((number1 < 100) || (number1 < 0))
+	fmt.Println((number1 > 100) || (number1 < 0))
+
+	// just for showcasing; sonar doesnt like it
+	fmt.Println(!(true))
 
 }
