@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /*
- * sctructs of same type can be compares with equatlity operators (==; !=)
+ * structs of same type can be compares with equatlity operators (==; !=)
  */
 
 type s1 struct {
